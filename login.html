@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario login</title>
+    <link rel="stylesheet" href="stylelogin.css" />
+  </head>
+  <body>
+    <h1 class="h1">login</h1>
+    <form name="login" action="index.html" method="get">
+      <div class="user">
+        <div class="usertitle"></div>
+        <p class="letra">Usuario</p>
+        <input
+          type="text"
+          name="txtNome"
+          size="40"
+          maxlength="30"
+          placeholder="digite o usuario"
+          required
+        />
+      </div>
+
+      <br />
+      <br />
+
+      <div class="password">
+        <p class="letra">senha</p>
+        <input
+          type="password"
+          size="40"
+          maxlength="8"
+          placeholder="digite a senha"
+          required
+        />
+      </div>
+
+      <br /><br />
+
+      <label for="confirmar"></label>
+      <div class="container">
+        <input type="submit" value="confirmar" />
+        <input type="reset" value="cancelar" />
+
+        <h4>Não possui conta? <a href="cadastro.html">clique aqui</a></h4>
+      </div>
+    </form>
+  </body>
+</html>

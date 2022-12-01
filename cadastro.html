@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curricolo</title>
+    <link rel="stylesheet" href="stylelogin.css" />
+  </head>
+  <body>
+    <form name="curriculo" action="login.html" method="post">
+      <div class="name">
+        <p>Digite seu nome</p>
+        <input
+          type="text"
+          name="CPF"
+          size="20"
+          maxlength="30"
+          placeholder="nome completo"
+          required
+        />
+      </div>
+
+      <div class="email">
+        <p>Digite seu email</p>
+        <label form="email"></label>
+        <input
+          type="email"
+          name="txtmail"
+          size="40"
+          maxlength="30"
+          placeholder="email"
+          required
+        />
+      </div>
+
+      <div class="tell">
+        <p>Digite seu telefone</p>
+        <label form="telefone"></label>
+        <input
+          type="tel"
+          name="txtfone"
+          title="99 999999999"
+          placeholder="(00) 0 0000-0000"
+          maxlength="15"
+          required
+        />
+      </div>
+
+      <div class="cpf">
+        <p>Digite seu CPF</p>
+        <input
+          type="text"
+          name="CPF"
+          size="20"
+          maxlength="11"
+          placeholder="000.000.000-00"
+          required
+        /><br /><br />
+      </div>
+
+      <label for="cadastrar"></label>
+      <input
+        type="submit"
+        value="cadastrar"
+        onclick="alert('Registro efetuado')"
+      />
+      <input type="reset" value="limpar" />
+    </form>
+  </body>
+</html>
